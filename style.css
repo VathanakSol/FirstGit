@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Labrada', sans-serif;
+}
+body{
+    background-color:blueviolet;
+    color:white;
+    position:absolute;
+    left:40%;
+    top:35%;
+}
+.container{
+    background-color:white;
+    width:250px;
+    color:blueviolet;
+    text-align:center;
+    border-radius:10px 10px 0 0;
+}
+.container span{
+    font-size:30px;
+    font-weight: bold;
+}
+.order{
+    background-color:white;
+    color:blueviolet;
+    padding-top:20px;
+    text-align:center;
+    padding-bottom:20px;
+    border-radius:0 0 10px 10px;
+}
+.check #p1:hover,.check #p2:hover{
+    font-weight:bold;
+    
+}
+.footer{
+    font-size:10px;
+    padding-top:10px;
+}
+.check{
+    padding-top:10px;
+    font-size:13px;
+}
+input:hover, input:active{
+    border:2px blueviolet solid;
+}
