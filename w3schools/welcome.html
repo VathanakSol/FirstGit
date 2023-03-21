@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h2>What Can JavaScript Do?</h2>
-
-<p id="demo">JavaScript can change the style of an HTML element.</p>
-<p id="p2">Hello JavaScript</p>
-<p id="p1">I love you big big</p>
-<p id="p3" style="display:none">Phnom Penh and Siem Reap</p>
-<button type="button" onclick="document.getElementById('p1').style.fontSize='50px'">Upgrade Font Size</button>
-<button type="button" onclick="document.getElementById('p1').style.fontSize='16px'">Reduce Font Size</button>
-<button type="button" onclick="document.getElementById('p2').style.display='none'">Hide</button>
-<button type="button" onclick="document.getElementById('p3').style.display='block'">Appear</button>
+    <h1>My First Web Page</h1>
+    <p id="one">My First Paragraph</p>
+    <button type="button" onclick=show();>Click it now!</button>
+    <script>
+        function show(){
+            let _A=5;
+            document.getElementById('one').innerHTML = _A;
+        }
+      
+    </script>
 </body>
 </html>

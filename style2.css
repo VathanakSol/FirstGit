@@ -1,275 +1,80 @@
-/* .container{
-    width:300px;
-    height:200px;
-    background-color:blueviolet;
-    color:white;
-    text-align:center;
-    padding-top:20px;
-    border-radius:10px;
-}
-#btn2:hover{
-    display:none;
-}
-#btn1{
-    font-size:30px;
-    position:absolute;
-    left:5%;
-    top:30%;
-}
-#btn2{
-    font-size:30px;
-    position:absolute;
-    left:20%;
-    top:30%;
-}
-#btn1:hover{
-    color:white;
-    background-color:blueviolet;
-} */
-/* 
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
-    
-}
-ol{
-    list-style-type:none;
-    display:flex;
-  
-}
-ol li{
-    padding:10px;
-    text-align:right;
-    
-}
-.header{
-    background-color:black;
-    height:50px;
-    color:white;
-    line-height:30px;
-    
-}
-ol li:hover{
-    color:black;
-    background-color:white;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a{
-    color:white;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
     text-decoration: none;
-    display:block;
-} */
-
-
-
-
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300&family=Open+Sans&display=swap');
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Labrada',sans-serif;
-}
-.container{
-    background-color:aqua;
-    text-align:center;
-    width:800px;
-    height:600px;
-    position:absolute;
-    top:20%;
-    left:20%;
-    border-radius:20px 20px 20px 20px;
-}
-#img1{
-    width:150px;
-    height:150px;
-    margin-top:20px;
-}
-.username #img2{
-    width:40px;
-    margin:40px 20px 0 0;
-}
-.username #input1{
-    padding:20px 70px 0 0;
-}
-.passWord #input2{
-    padding:20px 70px 0 0;
-}
-.passWord #img3{
-    width:40px;
-    margin:40px 20px 0 0;
-}
-span{
-    font-size:50px;
-    margin-bottom:20px;
-}
-.inputs{
-    background-color:white;
-    border: 3px solid aqua;
-}
-.loGin > p{
-    padding-bottom:20px;
-    font-size:20px;
-}
-.foot span{
-    font-size:20px;
-    text-decoration:underline;
-
-}
-.foot{
-    line-height:90px;
-}
-.container span{
-    font-size:30px;
-}
-.profile{
-    margin:20px;
-}
-:placeholder-shown{
-    font-size:30px;
-    
-}
-input{
-    border-radius:10px 10px 10px 10px;
-    border:1px solid aqua;
-} */
-
-
-
-
-
-/* 
-body{
-    margin:0;
-    display:grid;
-    place-items:center;
-    background-color:#000;
-}
-html, body{
-    height:100%;
 }
 
-.container{
-    width:250px;
-    display:flex;
-    align-items:center;
-    justify-content:center; 
-}
-.container button{
-    flex:0 0 42px;
-    height:42px;
-    border:0;
-    padding:6px;
-    background:transparent;
-    cursor:pointer;
-    transition:0.4s;
-}
-.container button span{
-    display:block;
-    height:30px;
-    width:100%;
-    border-radius:15px;
-    background:#383142;
-    transition:0.4s;
-}
-.container button:focus{
-    flex:0 0 88px;
-}
-.container button:focus span{
-    background:#00c853;
-}
-.container button:hover span{
-    background:#00c853;
-} */ 
-
-/* body{
-    margin:0;
-    place-items:center;
-    display:grid; 
-    background-color:black;
-}
-html, body{
-    height:100%;
-}
-.box button{
-    height:40px;
-    width:40px;
-    margin:3px;
-    border:0;
-    border-radius:25px;
-}
-.box button:hover{
-    background-color:greenyellow;
-}
-.box button:focus{
-    background-color:greenyellow;
-}
-.box button:focus{
-    flex:0 0 42px;
-} */
-
-
-/* body{
-    margin:0;
-    display:grid;
-    place-items:center;
-    text-align:center;
-}
-html, body{
-    height:100%;
-}
-.box button{
-    height:22px;
-    width:22px;
-    border-radius:15px;
-    border:0;
-    margin:3px;
-}
-.box button:focus{
-    background-color:yellowgreen;
-    
-    
-}
-.box button:hover{
-    background-color:yellowgreen;
-    
-    width:52px;
-    transition:0.2s;
-} */
-
-*{
-    margin:0;
-    padding:0;
-    
-}
-.menu li a{
-    text-decoration:none;
-}
-.menu li{
-    display:block;
-    float:left;
-    
-    padding:10px;
-    background-color:yellowgreen;
-}
-body{
-    margin:0;
-    display:grid;
-    place-items:center; 
-}
-html, body{
-    height:100%;
-}
-.menu li:hover,.menu li a:hover{
-    background-color:aqua;
-    font-size:125%;
-    cursor:pointer;
-    transition:0.2s;
+main {
+    padding: 40px;
 }
 
+.intro {
+    background-image: url(https://www.onlineittuts.com/wp-content/uploads/2020/11/bg.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.intro h2 {
+    color: white;
+    font-size: 48px;
+}
+
+.intro p {
+    color: white;
+    font-size: 24px;
+}
+
+.intro a {
+    display: inline-block;
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.feature {
+    text-align: center;
+}
 
