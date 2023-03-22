@@ -1,48 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     padding:0;
     margin:0;
     box-sizing:border-box;
-    font-family:'Labrada', sans-serif;
+    font-family:'Roboto', sans-serif;
 }
-body{
+h1{
+    text-align:center;
+}
+h1:hover{
+    font-size:50px;
+    color:red;
+    transition:0.6s;
     background-color:blueviolet;
-    color:white;
-    position:absolute;
-    left:40%;
-    top:35%;
-}
-.container{
-    background-color:white;
-    width:250px;
-    color:blueviolet;
-    text-align:center;
-    border-radius:10px 10px 0 0;
-}
-.container span{
-    font-size:30px;
-    font-weight: bold;
-}
-.order{
-    background-color:white;
-    color:blueviolet;
-    padding-top:20px;
-    text-align:center;
-    padding-bottom:20px;
-    border-radius:0 0 10px 10px;
-}
-.check #p1:hover,.check #p2:hover{
-    font-weight:bold;
     
 }
-.footer{
-    font-size:10px;
-    padding-top:10px;
+ul{
+    display:flex;
+
 }
-.check{
-    padding-top:10px;
-    font-size:13px;
+ul li{
+    list-style:none;
+    text-align:center;
+    width:70px;
+    height:20px;
 }
-input:hover, input:active{
-    border:2px blueviolet solid;
+ul li a{
+    text-decoration:none;
+    
 }
+ul li:hover{
+    background-color:red;
+    
+}
+ul li a:hover{
+    color:yellow;
+}
+.info{
+    margin-left:12px;
+}
+input{
+    margin-left:30px;
+}
+#i2{
+    margin-left:32px;
+}
+#i3{
+    margin-left:45px;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+    background-color:orange;
+    height:60px;
+    padding:5px;
+}
+section{
+    background-color:yellow;
+    color:red;
+    width:190px;
+    text-align:center;
+    height:50px;
+    line-height:50px;
+    font-size:120%;
+}
+section:nth-child(2):hover{
+    background-color:red;
+    color:yellow;
+    border-right:2px solid white;
+    border-left:2px solid white;
+}
+section:nth-child(3):hover{
+    background-color:red;
+    color:yellow;
+    border-right:2px solid white;
+    border-left:2px solid white;
+}
+section:nth-child(4):hover{
+    background-color:red;
+    color:yellow;
+    border-right:2px solid white;
+    border-left:2px solid white;
+}
+section:nth-child(1):hover{
+    background-color:red;
+    color:yellow;
+    border-right:2px solid white;
+
+}
+section:nth-child(5):hover{
+    background-color:red;
+    color:yellow;
+    border-left:2px solid white;
+}
+
+
