@@ -1,0 +1,158 @@
+*{
+    font-family:roboto;
+    margin:0;
+    padding:0;
+}
+.heads{
+    height:80px;
+    background-color:black;
+    color:white;
+    line-height:80px;
+    margin-bottom:0;
+}
+h1.header{
+    margin-left:50px;
+    text-align:center;
+}
+.header, .list, .btn{
+    display:inline-block;
+    vertical-align:middle;
+}
+h1:hover{
+    cursor:pointer;
+}
+h1:active{
+    opacity:0.4;
+}
+ul li{
+    display:inline-block;
+    margin:0px;
+    cursor:pointer;
+    height:50px;
+    width:120px;
+    line-height:50px;
+    text-align:center;
+    
+}
+ul li:hover{
+    background-color:orangered;
+    color:white;
+    text-decoration: underline;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.header{
+    margin-right:50px;
+    margin-left:20px;
+}
+.btn{
+    background-color:black;
+    border:1px solid white;
+    padding:12px;
+    color:white;
+    width:100px;
+    border-radius:5px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.2s;
+    margin-left:150px;
+}
+button:hover{
+    background-color:orangered;
+    border:1px solid black;
+    color:black;
+}
+button:active{
+    background-color:black;
+    border:1px solid orangered;
+    color:orangered;
+}
+/* Section 2 */
+.right{
+    background-color:black;
+    color:white;
+    width:700px;
+    height:460px;
+    margin-top:0;
+    vertical-align: top;
+    padding-top:35px;
+}
+.header1{
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:18px;
+    margin-left:100px;
+    padding-top:80px;
+    transition:0.2s;
+}
+.header1:hover{
+    opacity:0.8;
+}
+#para{
+    font-size:22px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:100px;
+    transition:0.4s;
+    position:absolute;
+    cursor:pointer;
+}
+#para:hover{
+    font-size:26px;
+}
+.btn1{
+    margin-left:100px;
+}
+.btn2{
+    margin-left:40px;
+}
+.btn1, .btn2{
+    background-color:white;
+    padding:14px;
+    border:none;
+    border-radius:5px;
+    font-size:20px;
+    width:150px;
+    margin-top:75px;
+    cursor:pointer;
+    transition:0.6s;
+}
+.btn1:hover, .btn2:hover{
+    border:none;
+    background-color:black;
+    color:white;
+    border:1px solid white;
+    width:170px;
+
+}
+.btn1:active, .btn2:active{
+    background-color:white;
+    color:black;
+
+}
+.right, .left{
+    display:inline-block;
+}
+.left{
+    background-color:black;
+    height:500px;
+    width:400px;
+    text-align: center;
+    padding-left:60px;
+}
+img{
+    height:400px;
+    cursor:pointer;
+    transition:0.4s;
+}
+img:hover{
+    opacity:0.7;
+}
+.section2{
+    background-color:black;
+    height:500px;
+}
+/* Section3 */
+#heading, .container{
+    margin-left:100px;
+}

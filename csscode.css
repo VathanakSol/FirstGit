@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:yellow;
+    display:flex;
+    height:100px;
+    align-items: center;
+    
+}
+button{
+    background-color:rgb(62, 62, 243);
+    border:none;
+    border-radius:5px;
+    color:white;
+    padding:5px 10px;
+}
+
+img{
+    height:50px;
+    width:50px;
+    object-fit:cover;
+    border-radius:50%;
+    vertical-align: bottom;
+}
+.pic{
+    flex:1;
+    padding-left:20px;
+}
+.word{
+    flex:5;
+    padding-left:10px;
+}
+.btn{
+    flex:1;
+    padding-left:20px;
+}

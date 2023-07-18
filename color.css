@@ -1,0 +1,19 @@
+.row1, .row2, .row3{
+    display:flex;
+    justify-content: space-between;
+}
+.box{
+    width:300px;
+    margin:10px;
+    border:1px solid grey;
+}
+button{
+    background-color:blue;
+    color:white;
+    border:none;
+    height:20px;
+}
+#p1, #btn1{
+    vertical-align: top;
+}
+

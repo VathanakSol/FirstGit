@@ -1,58 +1,43 @@
+<!-- study about jquery-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyWebsite</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Test jquery</title>
+    <link rel="stylesheet" href="color.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"> -->
 </head>
 <body>
-    <div class="header">
-        <h3>Episode 02</h1>
-    </div>
-    <div class="video">
-        <iframe width="800" height="210" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-        </iframe>
-    </div>
     <div class="box">
-        <div class="container-1">
-            <div class="box-1">01</div>
-            <div class="box-2"><a id="id-2" onclick="show()" href="">02</a></div>
-            <div class="box-3">03</div>
-            <div class="box-4">04</div>
-            <div class="box-5">05</div>
-            <div class="box-6">06</div>
-            <div class="box-7">07</div>
-            <div class="box-8">08</div>
-            <div class="box-9">09</div>
-            <div class="box-10">10</div>
+        <div class="row1">
+            <div id="p1">
+                <p>Home</p>
+            </div>
+            <div id="btn1">
+                <button>14</button>
+            </div>
         </div>
-        <div class="container-2">
-            <div class="box-1-1">11</div>
-            <div class="box-2-2">12</div>
-            <div class="box-3-3">13</div>
-            <div class="box-4-4">14</div>
-            <div class="box-5-5">15</div>
-            <div class="box-6-6">16</div>
-            <div class="box-7-7">17</div>
-            <div class="box-8-8">18</div>
-            <div class="box-9-9">19</div>
-            <div class="box-10-10">20</div>
+        <div class="row2">
+            <p>Notifications</p>
+            <button>3</button>
         </div>
-        <div class="container-3">
-            <div class="box-1-1-1">21</div>
-            <div class="box-2-2-2">22</div>
-            <div class="box-3-3-3">23</div>
-            <div class="box-4-4-4">24</div>
-            <div class="box-5-5-5">25</div>
-            <div class="box-6-6-6">26</div>
-            <div class="box-7-7-7">27</div>
-            <div class="box-8-8-8">28</div>
-            <div class="box-9-9-9">29</div>
-            <div class="box-10-10-10">30</div>
+        <div class="row3">
+            <p>Messages</p>
+            <button>5</button>
         </div>
     </div>
-    <script src="index.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+           $('#btn1').click(function(){
+                $('#btn2').addClass('homeClass');
+                $('#para1').append('. Do you love me?');
+                $('#para1').empty().append('NEW ERA');
+           })
+        })
+    </script>
 </body>
 </html>
